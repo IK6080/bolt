@@ -1,0 +1,76 @@
+.inner {
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #fff;
+  width: 100%;
+
+
+}
+
+.inner .header-inner {
+  width: 1100px;
+  margin: 0 auto;
+  
+}
+
+.fas {
+  margin-bottom: 15px;
+  color: #4e4e4e; 
+  margin-left: 25%;
+  float: left;
+}
+
+.contact {
+  background-color: #74cfae;
+  margin: 12px 14px 12px 14px;
+  font-size: 12px;
+  color: #fff;
+  margin-left: 75%;
+  width: 45px;  
+}
+
+.title {
+  background-color: #f2f2f2;
+  height: 610px;
+  
+}  
+
+.theme {
+  font-size: 90px;
+  font-weight: 700;
+  padding-top: 250px;
+  text-align: center;
+  color: #74cfae;
+  
+}
+
+.free {
+  padding: 20px;
+  font-size: 30px;
+  color: #c0c0c0;
+  text-align: center; 
+}
+
+.section {
+  background-color: #74cfae;
+  width: 100%;
+}
+
+.what {
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+
+
+}
+
+.iphone {
+  text-align: center;
+}
+
+.section_text {
+  text-align: center;
+  color: #fff;
+}
