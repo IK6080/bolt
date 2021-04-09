@@ -87,13 +87,16 @@
 }
 
 .work_picture {
-  padding: 40px 100px 80px 100px;
-  
-
- 
+  margin-top: 80px;
+  margin-left: 100px;
 }
 
 .work_picture:nth-child(-n+3) {
-  
+  margin-top: 0;
 }
+
+.work_picture:nth-child(3n+1) {
+  margin-left: 0;
+}
+
 
