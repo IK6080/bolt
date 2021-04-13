@@ -79,23 +79,62 @@
   background-color: #f2f2f2;
   display: flex;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .work {
+  
   font-size: 24px;
   color: #c0c0c0;
+  text-align: center;
+  
+  
+  
+  
+}
+
+.work .work_text {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+
+
+.work_text { 
+  
+  margin-left: 10%;
+  padding: 90px 90px 70px 90px;
+ 
+  
+
+  
+}
+
+.E_mail {
+  font-size: 12px;
+  padding: 14px 20px 14px 20px;
+  background-color: #74cfae;
+  margin-left: 80%;
+  width: 60px;
+  color: #ffff;
+  
 }
 
 .work_picture {
+  text-align: center;
+}
+
+.work_picture img {
   margin-top: 80px;
   margin-left: 100px;
 }
 
-.work_picture:nth-child(-n+3) {
+.work_picture img:nth-child(-n+3) {
   margin-top: 0;
 }
 
-.work_picture:nth-child(3n+1) {
+.work_picture img:nth-child(3n+1) {
   margin-left: 0;
 }
 
