@@ -1,5 +1,6 @@
 .inner {
   margin: 0 auto;
+  width: 1100px;
 }
 
 .header {
@@ -10,11 +11,10 @@
 }
 
 .inner .header-inner {
-  width: 1100px;
-  margin: 0 auto; 
+  width: 1100px; 
 }
 
-.fas {
+.header-inner .fas {
   font-size: 30px; 
   color: #4e4e4e; 
   margin-left: 25%;
@@ -32,8 +32,13 @@
 
 .title {
   background-color: #f2f2f2;
+  width: 100%;
   height: 610px;
 }  
+
+.inner .title-inner {
+  width: 1100px;
+} 
 
 .theme {
   font-size: 90px;
@@ -82,43 +87,31 @@
   position: relative;
 }
 
-.work {
-  
+.work { 
   font-size: 24px;
   color: #c0c0c0;
-  text-align: center;
-  
-  
-  
-  
+  padding: 60px 555px 40px;
 }
 
-.work .work_text {
+.work_footer {
   display: flex;
-  flex-direction: row;
-  align-items: flex-end;
+  text-align: center;
 }
-
-
 
 .work_text { 
-  
-  margin-left: 10%;
+  width: 55%;
   padding: 90px 90px 70px 90px;
- 
-  
-
-  
+  color: #c0c0c0;  
 }
 
 .E_mail {
   font-size: 12px;
   padding: 14px 20px 14px 20px;
   background-color: #74cfae;
-  margin-left: 80%;
   width: 60px;
+  margin-bottom: 70px;
+  margin-top: 90px;
   color: #ffff;
-  
 }
 
 .work_picture {
@@ -137,5 +130,83 @@
 .work_picture img:nth-child(3n+1) {
   margin-left: 0;
 }
+
+.section_our_skills {
+  background-color: #4e4e4e;
+}
+
+.our {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.skill img {
+  margin-top: 40px;
+  margin-left: 180px;
+  
+}
+
+.skill_name {
+  display: flex;
+  padding-bottom: 100px;
+  font-size: 16px;
+  color: #fff; 
+}
+
+.skill_Java {
+  margin-left: 200px;
+}
+
+.skill_Boot {
+  margin-left: 230px;
+}
+
+.skill_Word {
+  margin-left: 230px;
+}
+
+.skill_Photo {
+  margin-left: 230px;
+}
+
+.sns {
+  background-color: #f2f2f2;
+  display: flex;
+  
+}
+
+.sns_icon {
+  color: #74cfae;
+  font-size: 60px;  
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-left: 20px;
+}
+
+.fab {
+  padding: 100px 130px; /* paddingを横185pxにするとレイアウトが崩れてしまうのでとりあえず数値変えてます　*/
+  background-color: #f2f2f2;  
+}
+
+.footer {
+  background-color: #74cfae;
+  width: 100%;
+}
+
+.footer_text {
+  display: flex;
+  margin-left: 800px;
+  padding-top: 20px;
+  padding-bottom: 25px;  
+  color: #fff;
+}
+
+.footer_text .fas {
+  font-size: 15px;
+  color: #fff;
+}
+
 
 
