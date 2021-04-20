@@ -17,7 +17,7 @@
 .header-inner .fas {
   font-size: 30px; 
   color: #4e4e4e; 
-  margin-left: 15%;
+  margin-left: 5%;
   float: left;  
 }
 
@@ -26,7 +26,7 @@
   padding: 12px 14px 12px 14px;
   font-size: 12px;
   color: #fff;
-  margin-left: 85%;
+  margin-left: 95%;
   width: 45px;   
 }
 
@@ -71,6 +71,7 @@
 .iphone {
   padding-top: 50px;
   padding-left: 300px;  
+  margin-left: 300px;
 }
   
 .section_text {
@@ -78,6 +79,8 @@
   font-size: 20px;
   color: #fff;
   padding-top: 25px;
+  width: 750px;
+  margin-left: 170px;
 }
 
 .article {
@@ -91,31 +94,7 @@
   font-size: 24px;
   color: #c0c0c0;
   padding: 60px 555px 40px;
-}
-
-.work_footer {
-  display: flex;
-  text-align: center;
-}
-
-.work_text { 
-  width: 55%;
-  padding: 90px 90px 70px 90px;
-  color: #c0c0c0;  
-}
-
-.E_mail {
-  font-size: 12px;
-  padding: 14px 20px 14px 20px;
-  background-color: #74cfae;
-  width: 60px;
-  margin-bottom: 70px;
-  margin-top: 90px;
-  color: #ffff;
-}
-
-.work_picture {
-  text-align: center;
+  margin-left: 370px;
 }
 
 .work_picture img {
@@ -127,8 +106,34 @@
   margin-top: 0;
 }
 
-.work_picture img:nth-child(3n+1) {
-  margin-left: 0;
+.work_picture img:nth-child(1) {
+  margin-left: 485px;
+}
+
+.work_picture img:nth-child(4) {
+  margin-left: 485px;
+}
+
+.work_footer {
+  display: flex;
+  text-align: center;
+}
+
+.work_text { 
+  width: 27%;
+  padding: 90px 90px 70px 90px;
+  margin-left: 600px;
+  color: #c0c0c0;  
+}
+
+.E_mail {
+  font-size: 12px;
+  padding: 14px 20px 14px 20px;
+  background-color: #74cfae;
+  width: 60px;
+  margin-bottom: 75px;
+  margin-top: 90px;
+  color: #ffff;
 }
 
 .section_our_skills {
@@ -142,10 +147,14 @@
   padding-top: 70px;
 }
 
+.skill {
+  text-align: center;
+  margin-right: 200px;
+}
+
 .skill img {
   margin-top: 40px;
   margin-left: 180px;
-  
 }
 
 .skill_name {
@@ -156,7 +165,7 @@
 }
 
 .skill_Java {
-  margin-left: 200px;
+  margin-left: 490px;
 }
 
 .skill_Boot {
@@ -181,7 +190,6 @@
   font-size: 60px;  
   padding-top: 200px;
   padding-bottom: 200px;
-  
 }
 
 .fab {
@@ -203,7 +211,7 @@
 
 .footer_text {
   display: flex;
-  margin-left: 800px;
+  margin-left: 1500px;
   padding-top: 20px;
   padding-bottom: 25px;  
   color: #fff;
