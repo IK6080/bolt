@@ -1,6 +1,7 @@
 .inner {
   margin: 0 auto;
   width: 1100px;
+  text-align: center;
 }
 
 .header {
@@ -12,6 +13,7 @@
 
 .inner .header-inner {
   width: 1100px; 
+  text-align: center;
 }
 
 .header-inner .fas {
@@ -38,6 +40,7 @@
 
 .inner .title-inner {
   width: 1100px;
+  text-align: center;
 } 
 
 .theme {
@@ -65,7 +68,8 @@
   font-size: 24px; 
   color: #fff;
   text-align: center;
-  padding-top: 60px;   
+  padding-top: 60px; 
+  width: 1100px;  
 }
 
 .iphone {
@@ -85,6 +89,7 @@
 
 .article {
   background-color: #f2f2f2;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -94,24 +99,21 @@
   font-size: 24px;
   color: #c0c0c0;
   padding: 60px 555px 40px;
-  margin-left: 370px;
+  width: 1100px;
 }
 
 .work_picture img {
   margin-top: 80px;
   margin-left: 100px;
+  text-align: center;
 }
 
 .work_picture img:nth-child(-n+3) {
   margin-top: 0;
 }
 
-.work_picture img:nth-child(1) {
-  margin-left: 485px;
-}
-
-.work_picture img:nth-child(4) {
-  margin-left: 485px;
+.work_picture img:nth-child(3n+1) {
+  margin-left: 0;
 }
 
 .work_footer {
@@ -138,6 +140,7 @@
 
 .section_our_skills {
   background-color: #4e4e4e;
+  width: 100%;
 }
 
 .our_inner {
@@ -145,6 +148,7 @@
   color: #fff;
   text-align: center;
   padding-top: 70px;
+  width: 1100px;
 }
 
 .skill {
@@ -183,6 +187,7 @@
 .sns {
   background-color: #f2f2f2;
   display: flex;
+  width: 100%;
 }
 
 .sns_icon_inner {
@@ -190,6 +195,7 @@
   font-size: 60px;  
   padding-top: 200px;
   padding-bottom: 200px;
+  width: 1100px;
 }
 
 .fab {
