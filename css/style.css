@@ -58,13 +58,13 @@
   text-align: center; 
 }
 
-.section {
+.section_inner {
   background-color: #74cfae;
   width: 100%;
   display: flex;   
 }
 
-.what_inner {
+.what {
   font-size: 24px; 
   color: #fff;
   text-align: center;
@@ -87,7 +87,7 @@
   margin-left: 170px;
 }
 
-.article {
+.article_inner {
   background-color: #f2f2f2;
   width: 100%;
   display: flex;
@@ -95,7 +95,7 @@
   position: relative;
 }
 
-.work_inner { 
+.work { 
   font-size: 24px;
   color: #c0c0c0;
   padding: 60px 555px 40px;
@@ -138,12 +138,12 @@
   color: #ffff;
 }
 
-.section_our_skills {
+.section_our_skills_inner {
   background-color: #4e4e4e;
   width: 100%;
 }
 
-.our_inner {
+.our {
   font-size: 20px;
   color: #fff;
   text-align: center;
