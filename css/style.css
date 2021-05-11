@@ -1,13 +1,25 @@
+
 .inner {
   margin: 0 auto;
   width: 1100px;
   text-align: center;
 }
 
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
 .header {
   background-color: #fff;
   height: 30px;
+  width: 100%;
   padding: 15px 0;
+  position: fixed;
+  z-index: 100;
 }
 
 .inner .header-inner {
@@ -18,7 +30,6 @@
 .header-inner .fas {
   font-size: 30px; 
   color: #4e4e4e; 
-  margin-left: 5%;
   float: left;  
 }
 
@@ -30,6 +41,12 @@
   margin-left: 95%;
   width: 45px;   
 }
+
+.contact a:hover {
+  transition: 0.3s;
+  color: #333;
+}
+
 
 .title {
   background-color: #f2f2f2;
@@ -62,6 +79,7 @@
   font-size: 24px; 
   color: #fff;
   padding-top: 60px; 
+  padding-left: 80px;
 }
 
 .iphone {
@@ -72,8 +90,7 @@
   font-size: 20px;
   color: #fff;
   padding-top: 35px;
-  padding-left: 50px;
-  width: 750px;
+  width: 670px;
 }
 
 .article {
@@ -88,15 +105,16 @@
 
 .work { 
   font-size: 24px;
-  color: #c0c0c0;
+  color: #333;
   padding-top: 60px;
   padding-bottom: 40px;
-  padding-left: 450px;
+  padding-left: 435px;
 }
 
 .work_picture img {
   margin-top: 80px;
   margin-left: 90px; /*margin-leftを100pxにするとどうしてもレイアウトが崩れてしまうので値変えてます*/
+  opacity: 0.7;
 }
 
 .work_picture img:nth-child(-n+3) {
@@ -107,6 +125,11 @@
   margin-left: 0;
 }
 
+.article .work_picture img:hover {
+  transition: 0.3s;
+  opacity: 1;
+}
+
 .work_footer {
   display: flex;
 }
@@ -115,7 +138,7 @@
   width: 530px;
   padding: 90px 90px 70px 90px;
   margin-left: 200px;
-  color: #c0c0c0;  
+  color: #333;  
 }
 
 .E_mail {
@@ -126,6 +149,11 @@
   margin-bottom: 75px;
   margin-top: 90px;
   color: #ffff;
+}
+
+.E_mail a:hover {
+  transition: 0.3s;
+  color: #333;
 }
 
 .section_skills {
@@ -163,11 +191,11 @@
 }
 
 .skill_Java {
-  padding-left: 50px;
+  padding-left: 55px;
 }
 
 .skill_Boot {
-  padding-left: 220px;
+  padding-left: 230px;
 }
 
 .skill_Word {
@@ -175,7 +203,7 @@
 }
 
 .skill_Photo {
-  padding-left: 220px;
+  padding-left: 225px;
 }
 
 .nav {
@@ -201,6 +229,11 @@
 .sns_icon_inner .fas {
   padding: 80px 100px; /* paddingを横185pxにするとレイアウトが崩れてしまうのでとりあえず数値変えてます　*/
   background-color: #f2f2f2;  
+}
+
+.sns .sns_icon_inner i:hover {
+  transition: 0.3s;
+  background-color: #fff;
 }
 
 .footer {
