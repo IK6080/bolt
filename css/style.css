@@ -22,11 +22,6 @@ body {
   z-index: 100;
 }
 
-.inner .header-inner {
-  width: 1100px; 
-  text-align: center;
-}
-
 .header-inner .fas {
   font-size: 30px; 
   color: #4e4e4e; 
@@ -34,12 +29,16 @@ body {
 }
 
 .contact {
-  background-color: #74cfae;
-  padding: 12px 14px 12px 14px;
   font-size: 12px;
   color: #fff;
-  margin-left: 95%;
+  margin-top: 10px;
+  float: right;
   width: 45px;   
+}
+
+.contact a {
+  padding: 12px 14px 12px 14px;
+  background-color: #74cfae;
 }
 
 .contact a:hover {
@@ -47,16 +46,19 @@ body {
   color: #333;
 }
 
-
 .title {
   background-color: #f2f2f2;
   height: 610px;
 }  
 
+.title_inner {
+  padding-top: 250px;
+}
+
 .theme {
   font-size: 90px;
   font-weight: 700;
-  padding-top: 250px;
+  
   color: #74cfae; 
 }
 
@@ -72,20 +74,16 @@ body {
 
 .section_inner {
   display: flex; 
-  justify-content: center;  
+  justify-content: center; 
+  padding-top: 50px; 
+  padding-left: 80px; 
 }
 
 .what {
   font-size: 24px; 
   color: #fff;
-  padding-top: 60px; 
-  padding-left: 80px;
 }
 
-.iphone {
-  padding-top: 50px;
-}
-  
 .section_text {
   font-size: 20px;
   color: #fff;
@@ -101,12 +99,12 @@ body {
   display: flex;
   flex-wrap: wrap;
   position: relative;
+  padding-top: 60px;
 }
 
 .work { 
   font-size: 24px;
   color: #333;
-  padding-top: 60px;
   padding-bottom: 40px;
   padding-left: 435px;
 }
@@ -143,12 +141,14 @@ body {
 
 .E_mail {
   font-size: 12px;
-  padding: 14px 20px 14px 20px;
-  background-color: #74cfae;
-  width: 60px;
   margin-bottom: 75px;
   margin-top: 90px;
   color: #ffff;
+}
+
+.E_mail a {
+  padding: 14px 20px 14px 20px;
+  background-color: #74cfae;
 }
 
 .E_mail a:hover {
@@ -160,10 +160,13 @@ body {
   background-color: #4e4e4e;
 }
 
+.section_our_skills_inner {
+  padding-top: 70px;
+}
+
 .our {
   font-size: 25px;
   color: #fff;
-  padding-top: 70px;
 }
 
 .skill {
@@ -240,11 +243,14 @@ body {
   background-color: #74cfae;
 }
 
+.footer_inner {
+  padding-top: 20px;
+  padding-bottom: 25px; 
+}
+
 .footer_text {
   display: flex;
   margin-left: 75%;
-  padding-top: 20px;
-  padding-bottom: 25px;  
   color: #fff;
 }
 
