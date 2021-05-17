@@ -53,12 +53,12 @@ body {
 
 .title_inner {
   padding-top: 250px;
+  padding-bottom: 250px;
 }
 
 .theme {
   font-size: 90px;
   font-weight: 700;
-  
   color: #74cfae; 
 }
 
@@ -75,8 +75,7 @@ body {
 .section_inner {
   display: flex; 
   justify-content: center; 
-  padding-top: 50px; 
-  padding-left: 80px; 
+  padding-top: 50px;  
 }
 
 .what {
@@ -98,8 +97,8 @@ body {
 .article_inner {
   display: flex;
   flex-wrap: wrap;
-  position: relative;
   padding-top: 60px;
+  padding-bottom: 70px;
 }
 
 .work { 
@@ -109,21 +108,26 @@ body {
   padding-left: 435px;
 }
 
-.work_picture img {
+.work_picture {
+  font-size: 0;
+}
+
+.work_picture a {
+  display: inline-block;
   margin-top: 80px;
-  margin-left: 90px; /*margin-leftを100pxにするとどうしてもレイアウトが崩れてしまうので値変えてます*/
+  margin-left: 100px; 
   opacity: 0.7;
 }
 
-.work_picture img:nth-child(-n+3) {
+.work_picture a:nth-child(-n+3) {
   margin-top: 0;
 }
 
-.work_picture img:nth-child(3n+1) {
+.work_picture a:nth-child(3n+1) {
   margin-left: 0;
 }
 
-.article .work_picture img:hover {
+.article .work_picture a:hover {
   transition: 0.3s;
   opacity: 1;
 }
@@ -133,16 +137,16 @@ body {
 }
 
 .work_text { 
-  width: 530px;
-  padding: 90px 90px 70px 90px;
+  width: 500px;
+  margin-top: 90px;
   margin-left: 200px;
   color: #333;  
 }
 
 .E_mail {
   font-size: 12px;
-  margin-bottom: 75px;
-  margin-top: 90px;
+  margin-top: 100px;
+  margin-left: 90px;
   color: #ffff;
 }
 
@@ -162,6 +166,7 @@ body {
 
 .section_our_skills_inner {
   padding-top: 70px;
+  padding-bottom: 100px;
 }
 
 .our {
@@ -187,7 +192,6 @@ body {
 
 .skill_name {
   display: flex;
-  padding-bottom: 100px;
   padding-top: 30px;
   font-size: 16px;
   color: #fff; 
@@ -215,26 +219,24 @@ body {
 
 .sns {
   display: flex;
+  font-size: 0;
 }
 
 .sns_icon_inner {
   color: #74cfae;
   font-size: 60px;  
+  width: 100%;
   padding-top: 200px;
   padding-bottom: 200px;
 }
 
-.fab {
-  padding: 80px 100px; /* paddingを横185pxにするとレイアウトが崩れてしまうのでとりあえず数値変えてます　*/
-  background-color: #f2f2f2;  
+.sns_icon_inner a {
+  width: 185px;
+  display: inline-block;
+  padding: 45px 35px;
 }
 
-.sns_icon_inner .fas {
-  padding: 80px 100px; /* paddingを横185pxにするとレイアウトが崩れてしまうのでとりあえず数値変えてます　*/
-  background-color: #f2f2f2;  
-}
-
-.sns .sns_icon_inner i:hover {
+.sns .sns_icon_inner a:hover {
   transition: 0.3s;
   background-color: #fff;
 }
