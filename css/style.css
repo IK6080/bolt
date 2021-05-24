@@ -33,12 +33,13 @@ body {
   color: #fff;
   margin-top: 10px;
   float: right;
-  width: 45px;   
+  width: 45px; 
 }
 
 .contact a {
   padding: 12px 14px 12px 14px;
   background-color: #74cfae;
+  transition: 0.3s;
 }
 
 .contact a:hover {
@@ -63,7 +64,7 @@ body {
 }
 
 .free {
-  padding: 20px;
+  margin-top: 20px;
   font-size: 30px;
   color: #c0c0c0;
 }
@@ -86,7 +87,7 @@ body {
 .section_text {
   font-size: 20px;
   color: #fff;
-  padding-top: 35px;
+  margin-top: 35px;
   width: 670px;
 }
 
@@ -104,30 +105,31 @@ body {
 .work { 
   font-size: 24px;
   color: #333;
-  padding-bottom: 40px;
-  padding-left: 435px;
+  margin-left: 435px;
 }
 
 .work_picture {
   font-size: 0;
+  margin-top: 40px;
 }
 
-.work_picture a {
+.work_picture li {
   display: inline-block;
   margin-top: 80px;
   margin-left: 100px; 
   opacity: 0.7;
+  transition: 0.3s;
 }
 
-.work_picture a:nth-child(-n+3) {
+.work_picture li:nth-child(-n+3) {
   margin-top: 0;
 }
 
-.work_picture a:nth-child(3n+1) {
+.work_picture li:nth-child(3n+1) {
   margin-left: 0;
 }
 
-.article .work_picture a:hover {
+.article .work_picture li:hover {
   transition: 0.3s;
   opacity: 1;
 }
@@ -153,6 +155,7 @@ body {
 .E_mail a {
   padding: 14px 20px 14px 20px;
   background-color: #74cfae;
+  transition: 0.3s;
 }
 
 .E_mail a:hover {
@@ -178,41 +181,22 @@ body {
   display: flex;
 }
 
-.skill img {
-  padding-top: 40px;
+.skill li {
+  margin-top: 40px;
 }
 
-.skill img:nth-child(n+2) {
-  padding-left: 180px;
+.skill li:nth-child(n+2) {
+  margin-left: 180px;
 }
 
-.skill img:first-child {
-  padding-left: 30px;
+.skill li:first-child {
+  margin-left: 30px;
 }
 
-.skill_name {
-  display: flex;
-  padding-top: 30px;
-  font-size: 16px;
-  color: #fff; 
+.skill_name p {
+  color: #fff;
+  margin-top: 20px;
 }
-
-.skill_Java {
-  padding-left: 55px;
-}
-
-.skill_Boot {
-  padding-left: 230px;
-}
-
-.skill_Word {
-  padding-left: 230px;
-}
-
-.skill_Photo {
-  padding-left: 225px;
-}
-
 .nav {
   background-color: #f2f2f2;
 }
@@ -223,7 +207,6 @@ body {
 }
 
 .sns_icon_inner {
-  color: #74cfae;
   font-size: 60px;  
   width: 100%;
   padding-top: 200px;
@@ -231,9 +214,11 @@ body {
 }
 
 .sns_icon_inner a {
+  color: #74cfae;
   width: 185px;
   display: inline-block;
   padding: 45px 35px;
+  transition: 0.3s;
 }
 
 .sns .sns_icon_inner a:hover {
