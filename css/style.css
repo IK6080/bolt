@@ -30,7 +30,6 @@ body {
 
 .contact {
   font-size: 12px;
-  color: #fff;
   margin-top: 10px;
   float: right;
   width: 45px; 
@@ -40,6 +39,8 @@ body {
   padding: 12px 14px 12px 14px;
   background-color: #74cfae;
   transition: 0.3s;
+  text-decoration: none;
+  color: #fff;
 }
 
 .contact a:hover {
@@ -149,13 +150,15 @@ body {
   font-size: 12px;
   margin-top: 100px;
   margin-left: 90px;
-  color: #ffff;
+  
 }
 
 .E_mail a {
   padding: 14px 20px 14px 20px;
   background-color: #74cfae;
   transition: 0.3s;
+  text-decoration: none;
+  color: #fff;
 }
 
 .E_mail a:hover {
