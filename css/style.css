@@ -1,3 +1,4 @@
+@charset "UTF-8";
 
 .inner {
   margin: 0 auto;
@@ -15,11 +16,14 @@ body {
 
 .header {
   background-color: #fff;
-  height: 30px;
+  height: 60px;
   width: 100%;
-  padding: 15px 0;
   position: fixed;
   z-index: 100;
+}
+
+.header-inner {
+  padding: 15px 0;
 }
 
 .header-inner .fas {
@@ -182,9 +186,6 @@ body {
 
 .skill {
   display: flex;
-}
-
-.skill li {
   margin-top: 40px;
 }
 
@@ -218,9 +219,9 @@ body {
 
 .sns_icon_inner a {
   color: #74cfae;
-  width: 185px;
+  width: 75px;
   display: inline-block;
-  padding: 45px 35px;
+  padding: 25px 55px;
   transition: 0.3s;
 }
 
