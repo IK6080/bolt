@@ -16,14 +16,21 @@ body {
 
 .header {
   background-color: #fff;
-  height: 60px;
   width: 100%;
   position: fixed;
+  top: 0;
+  left: 0;
   z-index: 100;
 }
 
 .header-inner {
   padding: 15px 0;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .header-inner .fas {
@@ -54,7 +61,6 @@ body {
 
 .title {
   background-color: #f2f2f2;
-  height: 610px;
 }  
 
 .title_inner {
@@ -141,20 +147,19 @@ body {
 
 .work_footer {
   display: flex;
+  margin-top: 90px;
+  margin-left: 260px;
 }
 
 .work_text { 
-  width: 500px;
-  margin-top: 90px;
-  margin-left: 200px;
+  width: 460px;
   color: #333;  
 }
 
 .E_mail {
   font-size: 12px;
-  margin-top: 100px;
+  margin-top: 20px;
   margin-left: 90px;
-  
 }
 
 .E_mail a {
@@ -172,6 +177,7 @@ body {
 
 .section_skills {
   background-color: #4e4e4e;
+  text-align: center;
 }
 
 .section_our_skills_inner {
@@ -187,20 +193,18 @@ body {
 .skill {
   display: flex;
   margin-top: 40px;
+  margin-left: 30px;
 }
 
 .skill li:nth-child(n+2) {
   margin-left: 180px;
 }
 
-.skill li:first-child {
-  margin-left: 30px;
-}
-
 .skill_name p {
   color: #fff;
   margin-top: 20px;
 }
+
 .nav {
   background-color: #f2f2f2;
 }
@@ -219,9 +223,9 @@ body {
 
 .sns_icon_inner a {
   color: #74cfae;
-  width: 75px;
+  width: 185px;
   display: inline-block;
-  padding: 25px 55px;
+  padding: 25px 0px;
   transition: 0.3s;
 }
 
