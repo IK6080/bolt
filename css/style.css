@@ -64,7 +64,7 @@ body {
 }  
 
 .title_inner {
-  padding-top: 250px;
+  padding-top: 310px;
   padding-bottom: 250px;
 }
 
@@ -124,6 +124,10 @@ body {
   margin-top: 40px;
 }
 
+.work_picture a {
+  display: block;
+}
+
 .work_picture li {
   display: inline-block;
   margin-top: 80px;
@@ -147,8 +151,8 @@ body {
 
 .work_footer {
   display: flex;
+  justify-content: center;
   margin-top: 90px;
-  margin-left: 260px;
 }
 
 .work_text { 
@@ -192,8 +196,8 @@ body {
 
 .skill {
   display: flex;
+  justify-content: center;
   margin-top: 40px;
-  margin-left: 30px;
 }
 
 .skill li:nth-child(n+2) {
