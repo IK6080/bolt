@@ -59,12 +59,16 @@ body {
   color: #333;
 }
 
+main {
+  padding-top: 60px;
+}
+
 .title {
   background-color: #f2f2f2;
 }  
 
 .title_inner {
-  padding-top: 310px;
+  padding-top: 250px;
   padding-bottom: 250px;
 }
 
@@ -109,7 +113,6 @@ body {
 }
 
 .article_inner {
-  display: flex;
   flex-wrap: wrap;
   padding-top: 60px;
   padding-bottom: 70px;
@@ -118,7 +121,7 @@ body {
 .work { 
   font-size: 24px;
   color: #333;
-  margin-left: 435px;
+  text-align: center;
 }
 
 .work_picture {
@@ -127,7 +130,7 @@ body {
 }
 
 .work_picture a {
-  display: block;
+  display: inline-block;
 }
 
 .work_picture li {
@@ -154,7 +157,6 @@ body {
 .work_footer {
   display: flex;
   justify-content: center;
-  width: 100%;
   margin-top: 90px;
 }
 
