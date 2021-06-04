@@ -72,7 +72,7 @@ main {
   padding-bottom: 250px;
 }
 
-.theme {
+.theme { 
   font-size: 90px;
   font-weight: 700;
   color: #74cfae; 
@@ -98,7 +98,7 @@ main {
   font-size: 24px; 
   color: #fff;
   margin-top: 30px;
-  margin-left: 50px;
+  margin-left: 120px;
 }
 
 .section_text {
@@ -209,7 +209,7 @@ main {
   margin-left: 180px;
 }
 
-.skill_name p {
+li p {
   color: #fff;
   margin-top: 20px;
 }
@@ -218,27 +218,29 @@ main {
   background-color: #f2f2f2;
 }
 
-.sns {
-  display: flex;
-  font-size: 0;
-}
-
 .sns_icon_inner {
   font-size: 60px;  
-  width: 100%;
   padding-top: 200px;
   padding-bottom: 200px;
 }
 
-.sns_icon_inner a {
+
+.fab {
   color: #74cfae;
+}
+
+.fas {
+  color: #74cfae;
+}
+
+.sns_icon_inner li {
   width: 185px;
   display: inline-block;
   padding: 25px 0px;
   transition: 0.3s;
 }
 
-.sns .sns_icon_inner a:hover {
+.sns_icon_inner li:hover {
   transition: 0.3s;
   background-color: #fff;
 }
