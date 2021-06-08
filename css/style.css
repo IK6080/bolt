@@ -65,14 +65,14 @@ main {
 
 .title {
   background-color: #f2f2f2;
-}  
+}
 
 .title_inner {
   padding-top: 250px;
   padding-bottom: 250px;
 }
 
-.theme { 
+.bolt-theme {
   font-size: 90px;
   font-weight: 700;
   color: #74cfae; 
@@ -118,7 +118,7 @@ main {
   padding-bottom: 70px;
 }
 
-.work { 
+.bolt-work { 
   font-size: 24px;
   color: #333;
   text-align: center;
@@ -223,7 +223,6 @@ li p {
   padding-top: 200px;
   padding-bottom: 200px;
 }
-
 
 .fab {
   color: #74cfae;
