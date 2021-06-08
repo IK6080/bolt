@@ -41,12 +41,11 @@ body {
 
 .contact {
   font-size: 12px;
-  margin-top: 10px;
   float: right;
-  width: 45px; 
 }
 
 .contact a {
+  display: inline-block;
   padding: 12px 14px 12px 14px;
   background-color: #74cfae;
   transition: 0.3s;
@@ -166,8 +165,9 @@ main {
 }
 
 .E_mail {
+  display: flex;
+  align-items: center;
   font-size: 12px;
-  margin-top: 20px;
   margin-left: 90px;
 }
 
@@ -238,6 +238,10 @@ li p {
   font-size: 60px;
   padding: 25px 0px;
   transition: 0.3s;
+}
+
+.sns_icon_inner a {
+  display: block;
 }
 
 .sns_icon_inner li:hover {
