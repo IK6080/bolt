@@ -242,6 +242,7 @@ li p {
 
 .sns_icon_inner a {
   display: block;
+  padding: 25px 0px;
 }
 
 .sns_icon_inner li:hover {
@@ -269,5 +270,86 @@ li p {
   color: #fff;
 }
 
+/*PC指定*/
+@media screen and (min-width:1200px) {
+  
+}
+/*TAB指定*/
+@media screen and (min-width:768px) and (max-width:1199px) {
+  .inner {
+    width: 100%;
+    display: block;
+  }
+  
+  .header-inner .fas {
+    margin-left: 20px;
+  }
+  
+  .contact {
+    margin-right: 20px;
+  }
 
+  .section_inner {
+    padding-bottom: 25px;
+  }
 
+  .what {
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  .section_text {
+    margin: 0 auto;
+    width: 63%;
+    margin-top: 35px; 
+  }
+
+  .article_inner {
+    padding-bottom: 70px;
+  }
+
+  .work_picture li {
+    display: block;
+    margin: 0;  
+  }
+
+  .work_picture li:nth-child(4) {
+    margin-top: 80px;
+  }
+
+  .work_footer {
+    display: block;
+  }
+
+  .work_text {
+    width: 60%;
+    margin: 0 auto;  
+  }
+  .E_mail  {
+    display: block;
+    margin: 0;
+    margin-top: 55px;
+  }
+
+  .skill {
+    display: block;
+  }
+
+  .skill li:nth-child(n+2) {
+    margin: 0;
+    margin-top: 88px;
+  }
+}
+
+/*SP指定*/
+@media screen and (max-width:767px) {
+  .inner {
+    width: 100%;
+  }
+  .section_inner {
+    display: block;
+  }
+  .work_picture li {
+    display: block;
+  }
+}
