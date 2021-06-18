@@ -352,4 +352,15 @@ li p {
   .work_picture li {
     display: block;
   }
+  .contact {
+    display: none;
+    
+  }
+  .hamburger-menu {
+    float: right;
+    width: 40px;
+    cursor: pointer;
+    
+  
+  }
 }
