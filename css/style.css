@@ -34,11 +34,14 @@ body {
 }
 
 .header-inner .fas {
-  font-size: 30px; 
+  font-size: 40px; 
   color: #4e4e4e; 
   float: left;  
 }
 
+.bolt {
+  height: 12px;
+}
 .contact {
   font-size: 12px;
   float: right;
@@ -352,7 +355,8 @@ li p {
   }
 
   .bolt {
-    font-size: 100px;
+    margin-left: 5%;
+    
     
     
   }
@@ -377,7 +381,7 @@ li p {
     margin-top: 35px; 
   }
   
-  }
+  
   .section_inner {
     display: block;
   }
@@ -416,21 +420,22 @@ li p {
 
   .sns_icon_inner {
     padding-top: 50px;
+    
   }
 
-  .fab  {
-    
+  .sns_icon_inner li  {
+    display: block;
     width: 100%;
     
     
   }
 
-  .fas   {
-    width: 100%;
+  .footer_inner {
+    width: 75%;
+    white-space: nowrap;
     
     
-    
-    
+      
 
   }
   .contact {
