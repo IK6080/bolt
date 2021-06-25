@@ -328,6 +328,7 @@ li p {
     width: 60%;
     margin: 0 auto;  
   }
+  
   .E_mail  {
     display: block;
     margin: 0;
@@ -342,6 +343,11 @@ li p {
     margin: 0;
     margin-top: 88px;
   }
+
+  .footer_text {
+    white-space: nowrap;
+    margin-left: 70%;
+  }
 }
 
 /*SP指定*/
@@ -350,15 +356,40 @@ li p {
     width: 100%;
   }
 
-  .header-inner {
-    padding-bottom: 80px;
+  .contact {
+    display: none;
+  }
+  .hamburger-menu {
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+    margin: 0 0 0 auto;
+    height: 80px;
+    width: 80px;
+  }
+
+  .line span {
+    display: block;
+    margin-top: 7px;
+    width: 35px;
+    height: 3px;
+    background-color: #c0c0c0;
+  }
+
+  .line {
+    width: 35px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+  }
+
+  .line span:first-child {
+    margin: 0 ;
   }
 
   .bolt {
     margin-left: 5%;
-    
-    
-    
   }
 
   .title_inner {
@@ -381,10 +412,12 @@ li p {
     margin-top: 35px; 
   }
   
-  
   .section_inner {
     display: block;
+    padding-bottom: 30px;
+
   }
+  
   .work_picture li {
     display: block;
     margin: 0;
@@ -419,35 +452,17 @@ li p {
   }
 
   .sns_icon_inner {
-    padding-top: 50px;
-    
+    padding: 50px 0px;
   }
 
   .sns_icon_inner li  {
     display: block;
     width: 100%;
-    
-    
   }
 
-  .footer_inner {
-    width: 75%;
+  .footer_text {
     white-space: nowrap;
-    
-    
-      
-
-  }
-  .contact {
-    display: none;
-    
-  }
-  .hamburger-menu {
-    float: right;
-    width: 40px;
-    cursor: pointer;
-    
-  
-  }
+    margin-left: 60%;
+  } 
 }
 
