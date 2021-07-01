@@ -115,7 +115,6 @@ main {
 }
 
 .article_inner {
-  flex-wrap: wrap;
   padding-top: 60px;
   padding-bottom: 70px;
 }
@@ -176,6 +175,7 @@ main {
 }
 
 .E_mail a {
+  display: inline-block;
   padding: 14px 20px 14px 20px;
   background-color: #74cfae;
   transition: 0.3s;
@@ -213,7 +213,7 @@ main {
   margin-left: 180px;
 }
 
-li p {
+.skill p {
   color: #fff;
   margin-top: 20px;
 }
@@ -299,8 +299,8 @@ li p {
     margin-left: auto;
   }
   
-  .work_picture li:nth-child(3n) {
-    margin-bottom: 80px;
+  .work_picture li:nth-child(3n+4) {
+    margin-top: 80px;
   }
 
   .article .work_picture li:hover {
@@ -315,12 +315,13 @@ li p {
   .work_text {
     width: 60%;
     margin: 0 auto;  
+    margin-top: 80px;
+    margin-bottom: 40px;
   }
 
   .E_mail  {
     display: block;
     margin: 0;
-    margin-top: 55px;
   }
 
   .skill {
@@ -346,10 +347,6 @@ li p {
 
   .section_inner {
     padding-bottom: 25px;
-  }
-
-  .article_inner {
-    padding-bottom: 70px;
   }
 
   .footer_text {
